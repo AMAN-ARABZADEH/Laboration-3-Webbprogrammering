@@ -1,0 +1,14 @@
+#logoutlink {
+    width: 100%;
+    background-color: black;
+    color: #eee;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    margin-left: 7%;
+    text-decoration: none;
+}
+
+#logoutlink:hover {
+    background-color: darkblue;
+    color: white;
+}

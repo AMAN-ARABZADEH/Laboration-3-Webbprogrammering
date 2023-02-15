@@ -15,10 +15,11 @@ include("includes/config.php");
     <link rel="stylesheet" href="./css/answer.css" type="text/css">
     <link rel="stylesheet" href="./css/sidebar.css" type="text/css">
     <link rel="stylesheet" href="./css/footer.css" type="text/css">
+    <link rel="stylesheet" href="./css/logoutlink.css" />
 </head>
 <body>
 <!-- <p>Welcome back, <?php echo $_SESSION['username']; ?>!</p> -->
-<a href="logout.php" style="width:100%; height: 10%; background: white; color: darkblue; margin-top: 10; margin-left: 85%;">Logout</a>
+<a href="logout.php" id="logoutlink" >Logout</a>
 <div id="container">
     <header id="mainheader">
         <h1>PHP Struktur</h1>
@@ -26,4 +27,3 @@ include("includes/config.php");
     </header>
 
     <section id="leftcontent">
-

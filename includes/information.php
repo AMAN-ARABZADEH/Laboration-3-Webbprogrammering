@@ -1,6 +1,6 @@
 <?php
 function showInformation() {
-    echo '<div id="container">';
+    echo '<div id="container" style="height: 100vh">';
     echo '<h1>Information</h1>';
     echo '<ul>';
     echo '  <li>Datum/klockslag: ' . date('Y-m-d H:i:s');

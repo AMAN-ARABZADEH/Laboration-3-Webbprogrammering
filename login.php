@@ -56,6 +56,7 @@ if (!isset($_SESSION['username']) && isset($_SESSION['password'])) {
     <title>Login</title>
 </head>
 <body>
+
 <?php if (isset($error)) { ?>
     <p style="color: red;"><?php echo $error; ?></p>
 <?php } ?>
