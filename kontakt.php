@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,7 +54,8 @@
     <title>Kontakt</title>
 </head>
 <body>
-
+<!-- <p>Welcome back, <?php echo $_SESSION['username']; ?>!</p> -->
+<a href="logout.php" style="width:100%; height: 10%; background: white; color: darkblue; margin-top: 10; margin-left: 85%;">Logout</a>
 <div id="container">
     <?php include 'includes/navbar.php'; ?>
     <section class="column">
