@@ -52,32 +52,29 @@
     <title>Kontakt</title>
 </head>
 <body>
-<nav id="mainmenu">
-    <ul>
-        <li><a href="index.php">Hem</a></li>
-        <li><a href="omsidan.php">Om sidan</a></li>
-        <li><a href="kontakt.php">Kontakt</a></li>
-    </ul>
-</nav>
-<section class="column">
-    <form action="/action_page.php">
-        <label for="fname">Förnamn: </label>
-        <input type="text" id="fname" name="firstname" placeholder="Din förnamn..">
-        <label for="lname">Efternamn: </label>
-        <input type="text" id="lname" name="lastname" placeholder="Din efternamn..">
-        <label for="color">Favorit färg</label>
-        <select id="color" name="color">
-            <option value="red">Red</option>
-            <option value="blue">Blue</option>
-            <option value="green">Green</option>
-            <option value="yellow">Yellow</option>
-            <option value="purple">Purple</option>
-        </select>
-        <label for="subject">Ämne</label>
-        <textarea id="subject" name="subject" placeholder="Skriv nåt här.." style="height:170px"></textarea>
-        <input type="submit" value="Submit">
-    </form>
-</section>
+
+<div id="container">
+    <?php include 'includes/navbar.php'; ?>
+    <section class="column">
+        <form action="/action_page.php">
+            <label for="fname">Förnamn: </label>
+            <input type="text" id="fname" name="firstname" placeholder="Din förnamn..">
+            <label for="lname">Efternamn: </label>
+            <input type="text" id="lname" name="lastname" placeholder="Din efternamn..">
+            <label for="color">Favorit färg</label>
+            <select id="color" name="color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+            </select>
+            <label for="subject">Ämne</label>
+            <textarea id="subject" name="subject" placeholder="Skriv nåt här.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</div>
 
 </body>
 </html>

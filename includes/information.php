@@ -1,5 +1,6 @@
 <?php
 function showInformation() {
+    echo '<div id="container">';
     echo '<h1>Information</h1>';
     echo '<ul>';
     echo '  <li>Datum/klockslag: ' . date('Y-m-d H:i:s');
@@ -11,6 +12,7 @@ function showInformation() {
     echo '    User agent-sträng: ' . $_SERVER['HTTP_USER_AGENT'];
     echo '  </li>';
     echo '</ul>';
+    echo '</div>';
 }
 
 showInformation();

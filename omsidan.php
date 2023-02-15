@@ -9,7 +9,10 @@
     <title>Om sida</title>
 </head>
 <body>
-  <?php include 'includes/navbar.php'; ?>
+
+<div id="container">
+    <?php include 'includes/navbar.php'; ?>
+</div>
 
 </body>
 </html>

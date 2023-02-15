@@ -3,7 +3,7 @@
 <head>
     <title>PHP - Struktur</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/stilmall.css" type="text/css">
+    <link rel="stylesheet" href="./css/navbar.css" type="text/css">
 </head>
 <body>
 <div id="container">

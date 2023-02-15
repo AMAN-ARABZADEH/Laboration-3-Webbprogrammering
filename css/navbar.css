@@ -1,63 +1,51 @@
-nav#mainmenu {
-    width: 100%;
-    background-color: #333;
-    overflow: auto;
-}
-
-nav#mainmenu ul {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    list-style: none;
-    position: relative;
 }
 
-nav#mainmenu ul li {
-    display: inline-block;
+#container {
+    max-width: 70vw;
+    margin: 0 auto;
+
+}
+
+#mainheader {
     background-color: #333;
-    width: 20%;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
 
-nav#mainmenu ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
+#mainheader h1 {
+    margin: 0;
+    font-size: 36px;
 }
 
-nav#mainmenu ul li:hover > ul {
-    display: inherit;
+
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav#mainmenu ul ul ul {
-    left: 100%;
-    top: 0;
+nav li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
-nav#mainmenu a {
+nav a {
     display: block;
-    padding: 15px;
+    padding: 10px;
+    background-color: #333;
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
-    nav#mainmenu {
-        position: relative;
-    }
-
-    nav#mainmenu ul {
-        width: 100%;
-        display: none;
-    }
-
-    nav#mainmenu ul li {
-        width: 100%;
-        text-align: left;
-    }
-
-    nav#mainmenu a {
-        padding: 10px 15px;
-    }
+nav a:hover {
+    background-color: #fff;
+    color: #333;
 }
