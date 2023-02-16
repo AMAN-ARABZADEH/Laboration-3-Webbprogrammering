@@ -5,8 +5,6 @@
 // Author: Aman Arabzadeh
 // Course: Webbprogrammering på mittuniversitet
 
-
-
 // Start the session
 session_start();
 
