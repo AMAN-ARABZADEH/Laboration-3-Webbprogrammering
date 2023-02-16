@@ -1,6 +1,4 @@
 <?php
-// Start the session
-session_start();
 
 // Check if the user has already logged in
 if (isset($_COOKIE['username']) && isset($_COOKIE['password']) ) {

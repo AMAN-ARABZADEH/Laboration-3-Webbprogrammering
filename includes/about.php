@@ -13,7 +13,7 @@
     <title>Om sida</title>
 </head>
 <body>
-<a href="logout.php" id="logoutlink" >Logout</a>
+<a href="./includes/logout.php" id="logoutlink" >Logout</a>
 <div id="container">
 
 </div>

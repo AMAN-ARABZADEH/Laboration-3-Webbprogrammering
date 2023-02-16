@@ -14,10 +14,10 @@
 </head>
 <body>
 <!-- <p>Welcome back, <?php echo $_SESSION['username']; ?>!</p> -->
-<a href="../logout.php" id="logoutlink" >Logout</a>
+<a href="./includes/logout.php" id="logoutlink" >Logout</a>
 <div id="container">
     <section class="column">
-        <form action="/action_page.php">
+        <form action=""">
             <label for="fname">Förnamn: </label>
             <input type="text" id="fname" name="firstname" placeholder="Din förnamn..">
             <label for="lname">Efternamn: </label>

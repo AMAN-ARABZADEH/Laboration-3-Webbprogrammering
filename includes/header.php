@@ -16,7 +16,7 @@
 </head>
 <body>
 <!-- <p>Welcome back, <?php echo $_SESSION['username']; ?>!</p> -->
-<a href="logout.php" id="logoutlink" >Logout</a>
+<a href="./includes/logout.php" id="logoutlink" >Logout</a>
 <div id="container">
     <header id="mainheader">
         <h1>PHP Struktur</h1>
