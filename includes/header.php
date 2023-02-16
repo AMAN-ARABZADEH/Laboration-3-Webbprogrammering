@@ -1,7 +1,4 @@
-<?php
-include("includes/config.php");
 
-?>
 
 
 
@@ -23,7 +20,6 @@ include("includes/config.php");
 <div id="container">
     <header id="mainheader">
         <h1>PHP Struktur</h1>
-        <?php include("includes/mainmenu.php"); ?>
     </header>
 
     <section id="leftcontent">
